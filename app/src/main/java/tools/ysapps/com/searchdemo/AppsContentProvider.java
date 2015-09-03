@@ -9,7 +9,7 @@ import android.net.Uri;
 
 public class AppsContentProvider extends ContentProvider {
 	
-	 public static final String AUTHORITY = "in.wptrafficanalyzer.searchdialogdemo.CountryContentProvider";
+	 public static final String AUTHORITY = "tools.ysapps.com.searchdemo.CountryContentProvider";
 	 public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY + "/apps" );
 
      appsDB mAppDB = null;
